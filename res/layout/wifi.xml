@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="因为人数过多，需要登录不同的服务器。1-10学号的登录服务器2，11-35学号的登录服务器3，其余同学的登录服务器5，如果不行，可以尝试登录其他服务器试试。" >
+    </TextView>
+
+    <Button
+        android:id="@+id/server1"
+        style="@style/AppTheme"
+        android:layout_width="122dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.15"
+        android:text="服务器2区" >
+
+    </Button>
+
+    <Button
+        android:id="@+id/server2"
+        style="@style/AppTheme"
+        android:layout_width="122dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.15"
+        android:text="服务器3区" >
+    </Button>
+
+    <Button
+        android:id="@+id/server3"
+        style="@style/AppTheme"
+        android:layout_width="122dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.15"
+        android:text="服务器5区" >
+    </Button>
+
+    <Button
+        android:id="@+id/server4"
+        style="@style/AppTheme"
+        android:layout_width="122dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.15"
+        android:text="直接进入" >
+    </Button>    
+    
+</LinearLayout>

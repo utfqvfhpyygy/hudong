@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">互动平台</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">关于</string>
+    <string name="menu_loginout">退出</string>
+    <string name="menu_shutdown">关机</string>
+    <string name="title_activity_main">互动平台</string>
+
+</resources>

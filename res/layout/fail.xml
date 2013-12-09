@@ -1,0 +1,47 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:text="连接网络失败，请退出重新连接网络或者重试。'重新选择wifi',点击进入配置界面，选择:leyanwu2,leyanwu3,leyanwu5其中一个。然后重新登录互动系统。"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <Button
+                android:id="@+id/chooseWifi1"
+                android:layout_width="wrap_content"
+                android:layout_height="66dp"
+                android:layout_weight="0.23"
+                android:text="重新选择wifi" />
+            
+            <Button
+                android:id="@+id/retry"
+                android:layout_width="wrap_content"
+                android:layout_height="66dp"
+                android:layout_weight="0.23"
+                android:text="重试" />
+
+
+
+            <Button
+                android:id="@+id/exit"
+                android:layout_width="wrap_content"
+                android:layout_height="66dp"
+                android:layout_weight="0.23"
+                android:text="退出" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fail" />
+		
+    </LinearLayout>
